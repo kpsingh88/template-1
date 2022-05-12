@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main-container {
+    background-image: url(/img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+.banner-img {
+    visibility: hidden;
+}
+.nav-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.6);
+} 
+.logo {
+    position: relative;
+    top: 30%;
+    left: 20px;
+}
+.logo img {
+    height: 50px;
+}
+.login {
+    position: absolute;
+    top: 30px;
+    right: 105px;
+    font-size: 18px;
+    color: aliceblue;
+}
+.line {
+    position: absolute;
+    top:8px;
+    right: 75px;
+    font-size: 20px;
+    color: aliceblue;
+}
+.register {
+    position: absolute;
+    color: aliceblue;
+    top: 30px;
+    right: 3px;
+    font-size: 18px;
+}
+ul {  
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    display: flex;
+}
+ul li {
+    display: inline-block;
+    padding: 20px;
+}
+ul li a {
+    font-size: 20px;
+    color: yellow;
+    text-decoration: none;
+}
+
+.sub-container {
+    margin-top: 0;
+    background-image: url(/img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.sub-container h3 {
+    position: relative; 
+    bottom: 200px;
+    color: red;
+}
+.background-img {
+    visibility: hidden;
+
+}
+.flex {
+    display: flex;
+    position: relative;
+    bottom: 130px;
+    justify-content: space-around;
+    align-self: center;
+    
+}
+.middle-container {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.middle-container h3 {
+    text-align: center;
+    color: red;
+    margin-top: 60px;
+
+}
+.flex-1 {
+    display: flex;
+    justify-content: space-around;
+}
+.package {
+    text-align: center;
+}
+.top-div {
+    position: relative;
+    line-height: 0%;
+}
+.top-div p {
+    font-weight: bold;
+    color: yellow;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50% , -50%)
+}
+.package-img {
+    display: block;
+    padding-top: 0;
+    margin-top: px;
+    border: 2px solid black;
+}
